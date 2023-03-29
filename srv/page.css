@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+#my-own-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+.spacer {
+    width: 10%
+}
+
+.card {
+    width: 100%;
+    height: 10%;
+    background-color: lightblue;
+}
+
+.card-body {
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.btn.btn-primary, .btn.btn-secondary, .btn.btn-success {
+    font-size: 30px;
+}
+
+.btn.btn-secondary {
+    background-color: coral;
+}
+
+
+#controlBar {
+    display:flex;
+    margin: 0px 0px 10px 0px;
+    font-size: 30px;
+    background-color: seashell;
+}
+
+input {
+    width: 100%;
+}
+
+.labels {
+    border: 5px solid black;
+}
+
+#canvas {
+    border: 1px dashed red;
+    padding: 50px;
+    width: 80%;
+    background-color: grey;
+    border-radius: 20px
+}
+
+.counter {
+    display:flex;
+    color: darkred;
+}
